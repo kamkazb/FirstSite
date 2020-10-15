@@ -351,13 +351,13 @@ template {
   margin: -1px; }
 
 .button {
-  background-color: #FF6760;
-  color: #FFFFFF;
+  background-color: #ff6760;
+  color: #ffffff;
   border-radius: 5px;
   text-transform: uppercase;
   font-size: 12px; }
   .button:hover {
-    opacity: .8;
+    opacity: 0.8;
     outline: none; }
   .button:active {
     background-color: #595959;
@@ -374,12 +374,12 @@ template {
   margin: 0 auto; }
 
 .main__section--features {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding-top: 60px;
   padding-bottom: 50px; }
 
 .header {
-  color: #D9D9D9;
+  color: #d9d9d9;
   display: flex;
   flex-direction: column; }
 
@@ -401,11 +401,10 @@ template {
   padding-bottom: 20px; }
   .header__container--navigation .header__container-inner {
     display: flex;
-    align-items: center;
-    margin-left: 140px; }
+    align-items: center; }
 
 .header__container--au {
-  background-color: #2A2A2A;
+  background-color: #2a2a2a;
   padding-bottom: 30px;
   padding-top: 40px; }
   .header__container--au .header__container-inner {
@@ -427,7 +426,7 @@ template {
 .navigation__item {
   margin-right: 30px; }
   .navigation__item--active {
-    color: #FF6760; }
+    color: #ff6760; }
     .navigation__item--active .navigation__button {
       cursor: default; }
 
@@ -437,7 +436,7 @@ template {
   font-family: "Lato-black";
   font-size: 13px; }
   .navigation__button:hover {
-    color: #FF6760;
+    color: #ff6760;
     outline: none; }
   .navigation__button:focus {
     outline: none; }
@@ -534,7 +533,7 @@ template {
   background-color: #313131; }
 
 .footer__container-bottom {
-  background-color: #2C2C2C; }
+  background-color: #2c2c2c; }
 
 .footer-top__inner {
   display: flex;
@@ -552,43 +551,54 @@ template {
 
 .footer__title {
   margin: 0;
-  color: #E0E0E0;
+  color: #e0e0e0;
   font-size: 30px;
   margin-top: 90px; }
 
 .footer__text {
-  color: #BEBEBE;
+  color: #bebebe;
   margin-top: 15px;
   margin-bottom: 15px;
   font-size: 20px; }
 
 .footer__contacts-text {
   list-style: none;
-  color: #BEBEBE;
+  color: #bebebe;
   display: flex;
   flex-direction: row;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 100%; }
+
+.footer__contacts {
+  width: 585px;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px; }
 
 .footer__contacts-item {
-  padding-right: 15px; }
+  padding-right: 15px;
+  position: relative; }
   .footer__contacts-item:last-of-type {
-    padding-right: 0; }
-  .footer__contacts-item--adress ::before {
+    padding-right: 0;
+    margin-left: auto; }
+  .footer__contacts-item::before {
+    background-repeat: no-repeat;
     content: "";
     display: block;
     width: 30px;
     height: 30px;
-    background-image: url("../img/Position.svg"); }
-  .footer__contacts-item--phone ::before {
-    content: "";
-    display: block;
-    width: 30px;
-    height: 30px;
-    background-image: url("../img/Phone.svg"); }
+    position: absolute;
+    left: -12px; }
+  .footer__contacts-item--adress::before {
+    background-image: url("../img/Position.svg");
+    top: 2px; }
+  .footer__contacts-item--phone::before {
+    background-image: url("../img/Phone.svg");
+    top: 3px; }
 
 .footer__copyrights {
   margin: 0;
-  color: #BEBEBE;
+  color: #bebebe;
   font-size: 14px;
   padding-top: 32px;
   padding-bottom: 32px; }
@@ -604,20 +614,23 @@ template {
   width: 30px;
   border-radius: 50%;
   margin-right: 15px;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: 23px 23px;
+  background-position: 50% 50%; }
   .socials__item:last-of-type {
     margin-right: 0; }
   .socials__item--vk {
-    background-color: #B3CFF8;
+    background-color: #4c75a3;
     background-image: url("../img/vk.svg"); }
   .socials__item--fb {
-    background-color: #63BEE0;
+    background-color: #3b5998;
     background-image: url("../img/facebook.svg"); }
   .socials__item--gh {
-    background-color: #E9A0C4;
+    background-color: transparent;
+    background-size: 30px 30px;
     background-image: url("../img/github.svg"); }
   .socials__item--go {
-    background-color: #D35051;
+    background-color: #d35051;
     background-image: url("../img/google.svg"); }
   .socials__item .socials__link {
     opacity: 0; }
