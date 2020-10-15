@@ -1,0 +1,33 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Semerikov Vlad's porfolio",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "browser-sync": "^2.26.12",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss": "^8.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamkazb/FirstSite.git"
+  },
+  "author": "Vlad Semerikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamkazb/FirstSite/issues"
+  },
+  "homepage": "https://github.com/kamkazb/FirstSite#readme"
+}
