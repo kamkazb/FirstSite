@@ -1,0 +1,112 @@
+{
+    "works":
+    [
+        {
+            "id": 1,
+            "src":"../markup/build/img/Clip-0.png",
+            "name":"Try-1",
+            "isGraphic": true,
+            "isIlustration": true,
+            "isMotion": false
+        },
+    
+        {
+            "id": 2,
+            "src":"../markup/build/img/Clip-1.png",
+            "name":"Try-2",
+            "isGraphic": true,
+            "isIlustration": true,
+            "isMotion": false
+        },
+    
+        {
+            "id": 3,
+            "src":"../markup/build/img/Clip-2.png",
+            "name":"Try-3",
+            "isGraphic": true,
+            "isIlustration": true,
+            "isMotion": false
+        },
+    
+        {
+            "id": 4,
+            "src":"../markup/build/img/Clip-3.png",
+            "name":"Try-4",
+            "isGraphic": true,
+            "isIlustration": true,
+            "isMotion": false
+        },
+    
+        {
+            "id": 5,
+            "src":"../markup/build/img/Clip-4.png",
+            "name":"Try-5",
+            "isGraphic": false,
+            "isIlustration": false,
+            "isMotion": true
+        },
+    
+        {
+            "id": 6,
+            "src":"../markup/build/img/Clip-5.png",
+            "name":"Try-6",
+            "isGraphic": false,
+            "isIlustration": false,
+            "isMotion": true
+        },
+    
+        {
+            "id": 7,
+            "src":"../markup/build/img/Clip-6.png",
+            "name":"Try-7",
+            "isGraphic": true,
+            "isIlustration": false,
+            "isMotion": true
+        },
+    
+        {
+            "id": 8,
+            "src":"../markup/build/img/Clip-7.png",
+            "name":"Try-8",
+            "isGraphic": false,
+            "isIlustration": false,
+            "isMotion": true
+        },
+    
+        {
+            "id": 9,
+            "src":"../markup/build/img/Clip-8.png",
+            "name":"Try-9",
+            "isGraphic": true,
+            "isIlustration": false,
+            "isMotion": false
+        },
+    
+        {
+            "id": 10,
+            "src":"../markup/build/img/Clip-9.png",
+            "name":"Try-10",
+            "isGraphic": false,
+            "isIlustration": true,
+            "isMotion": false
+        },
+    
+        {
+            "id": 11,
+            "src":"../markup/build/img/Clip-10.png",
+            "name":"Try-11",
+            "isGraphic": false,
+            "isIlustration": false,
+            "isMotion": true
+        },
+    
+        {
+            "id": 12,
+            "src":"../markup/build/img/Clip-11.png",
+            "name":"Try-12",
+            "isGraphic": false,
+            "isIlustration": true,
+            "isMotion": false
+        }
+    ]
+}

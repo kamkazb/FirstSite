@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт Портфолио</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container header__container--navigation">
+        <div class="header__container-inner inner">
+          <div class="header__logo">
+            <img
+              src="./img/Logo.svg"
+              alt="Logo"
+              width="250"
+              height="70"
+              class="header__logo-img"
+            />
+          </div>
+          <nav class="header__navigation">
+            <ul class="header__navigation-list navigation">
+              <li class="navigation__item navigation__item--active">
+                <button
+                  class="navigation__button"
+                  type="button"
+                  aria-label="go home"
+                  disabled
+                >
+                  home
+                </button>
+              </li>
+              <li class="navigation__item">
+                <button
+                  class="navigation__button"
+                  type="button"
+                  aria-label="go to portfolio"
+                >
+                  portfolio
+                </button>
+              </li>
+              <li class="navigation__item">
+                <button
+                  class="navigation__button"
+                  type="button"
+                  aria-label="go to about"
+                >
+                  about
+                </button>
+              </li>
+              <li class="navigation__item">
+                <button
+                  class="navigation__button"
+                  type="button"
+                  aria-label="go to contacts"
+                >
+                  contact
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header__container header__container--au">
+        <div class="header__container-inner inner">
+          <div class="header__text">
+            <h1 class="header__title">We are Webpaint</h1>
+            <p class="header__info">
+              digital & branding agency based in Jupiter and we would love to
+              turn ideas into beautiful things.
+            </p>
+          </div>
+          <button
+            class="header__button button"
+            type="button"
+            aria-label="go to portfolio"
+          >
+            see portfolio
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__section section main__section--features features">
+        <div class="features__inner inner">
+          <h2 class="section__title visually-hidden">Наши преимущества</h2>
+          <ul class="main__features-list features-list">
+            <li class="features-list__item features-list__item--android">
+              <h3 class="features-list__item-title">Consectetur</h3>
+              <p class="features-list__item-info">
+                Vestibulum id ligula porta euismod semper. Aenean lacinia
+                bibendum nulla sed consectetur dui.
+              </p>
+            </li>
+            <li class="features-list__item features-list__item--monitor">
+              <h3 class="features-list__item-title">Tristiquet</h3>
+              <p class="features-list__item-info">
+                Fusce dapibus, cursus commodo, tortor mauris condimentum nibh,
+                ut fermentum massa justo risus.
+              </p>
+            </li>
+            <li class="features-list__item features-list__item--camera">
+              <h3 class="features-list__item-title">Fermentum</h3>
+              <p class="features-list__item-info">
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam
+                venenatis vestibulum sagittis lacus mollis.
+              </p>
+            </li>
+            <li class="features-list__item features-list__item--clock">
+              <h3 class="features-list__item-title">Elit Ultricies</h3>
+              <p class="features-list__item-info">
+                Maecenas sed diam eget risus varius blandit sit amet non magna.
+                Vivamus sagittis lacus vel augue laoreet.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__section section main__section--works works">
+        <div class="works__inner inner">
+          <div class="works__text">
+            <h2 class="works__title">Our Featured Works</h2>
+            <p class="works__subtitle">
+              Curabitur blandit tempus porttitor. Maecenas faucibus mollis
+              interdum.
+            </p>
+          </div>
+          <div class="works__controls">
+            <button
+              id="all"
+              class="button works__controls-button button--active"
+              type="button"
+              aria-label="filter all"
+            >
+              all
+            </button>
+            <button
+              id="graphics"
+              class="button works__controls-button"
+              type="button"
+              aria-label="filter graphics"
+            >
+              graphics
+            </button>
+            <button
+              id="illustration"
+              class="button works__controls-button"
+              type="button"
+              aria-label="filter illustration"
+            >
+              illustration
+            </button>
+            <button
+              id="motion"
+              class="button works__controls-button"
+              type="button"
+              aria-label="filter motion"
+            >
+              motion
+            </button>
+          </div>
+          <div class="works__projects projects">
+            <div class="projects__item">
+              <img
+                src="../img/Clip-0.png"
+                alt=""
+                class="projects__img"
+                width="270"
+                height="220"
+              />
+            </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container footer__container-top">
+        <div class="footer__top footer-top">
+          <div class="footer-top__inner inner">
+            <h2 class="footer__title">Get in Touch</h2>
+            <p class="footer__text">
+              Vestibulum id ligula porta felis euismod semper,malesuada euismod.
+            </p>
+            <div class="footer__contacts">
+              <div class="footer__contacts-text">
+                <p class="footer__contacts-item footer__contacts-item--adress">
+                  Moonshine Street No: 14/05 Light City, Jupiter
+                </p>
+                <p class="footer__contacts-item footer__contacts-item--phone">0247 541 65 87</p>
+              </div>
+            </div>
+            <ul class="footer__social-list socials">
+              <li class="socials__item socials__item--vk">
+                <a href="#" class="socials__link" aria-label="link to vk">vk</a>
+              </li>
+              <li class="socials__item socials__item--fb">
+                <a href="#" class="socials__link" aria-label="link to fb">fb</a>
+              </li>
+              <li class="socials__item socials__item--gh">
+                <a href="#" class="socials__link" aria-label="link to gh">gh</a>
+              </li>
+              <li class="socials__item socials__item--go">
+                <a href="#" class="socials__link" aria-label="link to google"
+                  >go</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__container footer__container-bottom">
+        <div class="footer__bottom footer-bottom">
+          <div class="footer-bottom__inner inner">
+            <p class="footer__copyrights">
+              @ 2013 Webpaint. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

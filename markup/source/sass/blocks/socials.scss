@@ -1,0 +1,33 @@
+.socials__item {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-repeat: no-repeat;
+  background-size: 23px 23px;
+  background-position: 50% 50%;
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &--vk {
+    background-color: #4c75a3;
+    background-image: url("../img/vk.svg");
+  }
+  &--fb {
+    background-color: #3b5998;
+    background-image: url("../img/facebook.svg");
+  }
+  &--gh {
+    background-color: transparent;
+    background-size: 30px 30px;
+    background-image: url("../img/github.svg");
+  }
+  &--go {
+    background-color: #d35051;
+    background-image: url("../img/google.svg");
+  }
+
+  .socials__link {
+    opacity: 0;
+  }
+}
