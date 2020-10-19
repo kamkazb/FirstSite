@@ -58,7 +58,7 @@
     margin-left:auto;
   }
 
-  &::before{
+  &::before {
     background-repeat: no-repeat;
     content: "";
     display: block;
@@ -76,6 +76,7 @@
   &--phone::before {
     background-image: url("../img/Phone.svg");
     top:3px;
+    left: -15px;
   }
 }
 

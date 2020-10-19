@@ -1,0 +1,5 @@
+.projects{
+    display: grid;
+    grid-template-columns: repeat($count-columns, 1fr);
+    grid-gap: 5px;
+}

@@ -52,15 +52,6 @@
   justify-content: flex-end;
 }
 
-.navigation__item {
-  margin-right: 30px;
-  &--active {
-    color: $header-active-text;
-    .navigation__button {
-      cursor: default;
-    }
-  }
-}
 .navigation__button {
   color: inherit;
   text-transform: uppercase;
@@ -72,6 +63,16 @@
   }
   &:focus {
     outline: none;
+  }
+}
+
+.navigation__item {
+  margin-right: 30px;
+  &--active {
+    color: $header-active-text;
+    .navigation__button {
+      cursor: default;
+    }
   }
 }
 

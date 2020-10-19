@@ -423,13 +423,6 @@ template {
   display: flex;
   justify-content: flex-end; }
 
-.navigation__item {
-  margin-right: 30px; }
-  .navigation__item--active {
-    color: #ff6760; }
-    .navigation__item--active .navigation__button {
-      cursor: default; }
-
 .navigation__button {
   color: inherit;
   text-transform: uppercase;
@@ -440,6 +433,13 @@ template {
     outline: none; }
   .navigation__button:focus {
     outline: none; }
+
+.navigation__item {
+  margin-right: 30px; }
+  .navigation__item--active {
+    color: #ff6760; }
+    .navigation__item--active .navigation__button {
+      cursor: default; }
 
 .header__text {
   display: flex;
@@ -594,7 +594,8 @@ template {
     top: 2px; }
   .footer__contacts-item--phone::before {
     background-image: url("../img/Phone.svg");
-    top: 3px; }
+    top: 3px;
+    left: -15px; }
 
 .footer__copyrights {
   margin: 0;
@@ -634,3 +635,8 @@ template {
     background-image: url("../img/google.svg"); }
   .socials__item .socials__link {
     opacity: 0; }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px; }
