@@ -32,5 +32,6 @@ module.exports = {
     ],
     'no-param-reassign': 0,
     'max-len': 0,
+    'import/no-dynamic-require':0,
   },
 };
