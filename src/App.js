@@ -23,7 +23,7 @@ function App() {
       <Header RefsMap={RefsMap} />
       <main className="main">
         <Features RefsMap={RefsMap} />
-        <Works RefsMap={RefsMap} WorksItems={works} SetFilter={setFilter} CurrentFilter={currentFilter} SetWorks={setWorks} SourcedData={sourcedData}/>
+        <Works RefsMap={RefsMap} WorksItems={works} SetFilter={setFilter} CurrentFilter={currentFilter} SetWorks={setWorks} SourcedData={sourcedData} />
       </main>
       <Footer RefsMap={RefsMap} />
     </>

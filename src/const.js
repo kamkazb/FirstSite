@@ -11,6 +11,5 @@ const getFilteredWorksMap = {
   [filtersMap.ILLUSTRATION]: (works) => [...works].filter((work) => work.isIllustration),
   [filtersMap.MOTION]: (works) => [...works].filter((work) => work.isMotion),
 };
-
 // eslint-disable-next-line import/prefer-default-export
 export { filtersMap, getFilteredWorksMap };

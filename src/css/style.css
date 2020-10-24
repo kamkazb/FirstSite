@@ -458,6 +458,22 @@ template {
   font-size: 14px;
   padding: 17px 42px 17px 42px; }
 
+.header__container--navigation-fixed {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(38, 38, 38, 0.8); }
+  .header__container--navigation-fixed .header__logo {
+    display: none; }
+
+.header__container--navigation-fixed + .header__container--au {
+  padding-top: 50px;
+  margin-top: 100px; }
+
 .fearures__inner {
   display: flex;
   flex-direction: column;
@@ -640,3 +656,10 @@ template {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px; }
+
+.projects__item:hover {
+  transition-property: all;
+  transition-duration: 0.7s;
+  transform: scale(1.1);
+  margin-bottom: 30px;
+  margin-top: 7px; }

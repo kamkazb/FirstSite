@@ -1,22 +1,43 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import * as Scroll from 'react-scroll';
+
 import PropTypes from 'prop-types';
 import logo from '../img/Logo.svg';
 
+const ACTIVE_MODIF = 'header__container--navigation-fixed';
+
 const Header = ({ RefsMap }) => {
+  const refContainerNavigation = useRef();
+
   const GoToRefMap = {
     home: RefsMap.refHome,
     portfolio: RefsMap.refPortfolio,
     about: RefsMap.refAbout,
     contact: RefsMap.refContact,
   };
-
+  const scroll = Scroll.animateScroll;
   const goTo = (id) => {
-    window.scrollTo(0, GoToRefMap[id].current.offsetTop);
+    scroll.scrollTo(GoToRefMap[id].current.offsetTop - 60);
   };
+
+  useEffect(() => {
+    const refCurrent = refContainerNavigation.current;
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 200 && !refCurrent.classList.contains(ACTIVE_MODIF)) {
+        refCurrent.classList.add(ACTIVE_MODIF);
+      } else if (window.pageYOffset < 200 && refCurrent.classList.contains(ACTIVE_MODIF)) {
+        refCurrent.classList.remove(ACTIVE_MODIF);
+      }
+    });
+  });
 
   return (
     <header className="header">
-      <div className="header__container header__container--navigation">
+      <div
+        className="header__container header__container--navigation"
+        ref={refContainerNavigation}
+      >
         <div className="header__container-inner inner">
           <div className="header__logo">
             <img
